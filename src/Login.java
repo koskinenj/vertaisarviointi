@@ -37,7 +37,7 @@ public class Login {
 }
 
 	 
-	// luodaan käyttäjälle sähköposti antamien tietojen mukaan
+	   // luodaan käyttäjälle sähköposti antamien tietojen mukaan
 	
 	public static void GenerateEmail(String etunimi, String sukunimi, String verkkotunnus){
 		
@@ -45,7 +45,7 @@ public class Login {
 		
 	  
 }	
-	// luodaan käyttäjälle käyttäjätunnus antamien tietojen mukaan
+	   // luodaan käyttäjälle käyttäjätunnus antamien tietojen mukaan
 	
 	
 	public static void GenerateUsername(String etunimi, String sukunimi){
