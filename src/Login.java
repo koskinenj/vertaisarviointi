@@ -34,21 +34,24 @@ public class Login {
 			}
     
 			
-}
+}      // maini päättyy
 
 	 
 	   // luodaan käyttäjälle sähköposti antamien tietojen mukaan
+	   // vaikka käyttäjä olisi syöttänyt isoja kirjaimia, muuttaa ohjelma sähköpostiin ne pieniksi kirjaimiksi
 	
-	public static void GenerateEmail(String etunimi, String sukunimi, String verkkotunnus){
+	    public static void GenerateEmail(String etunimi, String sukunimi, String verkkotunnus){
 		
 		System.out.println("\nSähköpostisi: \n" + etunimi.toLowerCase() + "." + sukunimi.toLowerCase() + "@" + verkkotunnus.toLowerCase() + "\n");
 		
 	  
-}	
+}
+	
+	
 	   // luodaan käyttäjälle käyttäjätunnus antamien tietojen mukaan
+	   // vaikka käyttäjä olisi syöttänyt isoja kirjaimia, muuttaa ohjelma käyttäjätunnukseen ne pieniksi kirjaimiksi
 	
-	
-	public static void GenerateUsername(String etunimi, String sukunimi){
+	    public static void GenerateUsername(String etunimi, String sukunimi){
 	
 
 		System.out.print("Käyttäjätunnuksesi: \n" + etunimi.toLowerCase().substring(0 , 4));
