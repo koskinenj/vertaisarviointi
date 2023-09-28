@@ -21,7 +21,9 @@ public class Login {
 			System.out.println("Syötä verkkotunnus:");
 			String verkkotunnus = in.nextLine();
 		
-		in.close();
+	  // Suljetaan skanneri kun sitä ei enää tarvita
+			
+			in.close();
 			
 			if(etunimi.isEmpty() || sukunimi.isEmpty() || verkkotunnus.isEmpty())
 			{
